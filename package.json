@@ -1,0 +1,29 @@
+{
+  "name": "davincifren",
+  "version": "1.0.0",
+  "description": "OpenAI Davinci Chatbot for Discord",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mconstant/DaVinciFren.git"
+  },
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "author": "mconstant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mconstant/DaVinciFren/issues"
+  },
+  "homepage": "https://github.com/mconstant/DaVinciFren#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "openai-api": "^1.3.1"
+  }
+}
