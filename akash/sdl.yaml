@@ -1,0 +1,34 @@
+---
+version: "2.0"
+
+services:
+  fren:
+    image: xmconstantx/davincifren
+    expose:
+      - port: 8080
+        to:
+          - global: true
+    env:
+      - BOT_TOKEN=somesecretbottoken
+      - OPENAI_API_KEY=somesecretapikey
+profiles:
+  compute:
+    fren-profile:
+      resources:
+        cpu:
+          units: 1
+        memory:
+          size: 128Mi
+        storage:
+          size: 128Mi
+  placement:
+    akash:
+      pricing:
+        fren-profile:
+          denom: uakt
+          amount: 10000
+deployment:
+  fren:
+    akash:
+      profile: fren-profile
+      count: 1
