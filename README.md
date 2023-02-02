@@ -1,8 +1,6 @@
 # davincifren
 
-a smol application by kript to give you a nice openai davinci chatbot on discord.
-
-dockerized and akasherized by mconstant
+a smol applicatio to give you a nice openai davinci chatbot on discord
 
 ## deployment prereqs
 
