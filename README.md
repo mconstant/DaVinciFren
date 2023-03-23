@@ -1,6 +1,6 @@
 # davincifren
 
-a smol applicatio to give you a nice openai davinci chatbot on discord
+a smol application to give you a nice openai davinci chatbot on discord
 
 ## deployment prereqs
 
